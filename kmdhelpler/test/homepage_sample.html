@@ -1,0 +1,922 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+	<SCRIPT = "JavaScript">
+	<!--
+	    function win_cls() { window.close(); }
+	//-->
+	</SCRIPT>
+
+<link rel=stylesheet href="https://archiver.kmd.keio.ac.jp/doc/style.css" type="text/css">
+<title>KMD e-Learning システム</title>
+</head>
+<BODY BGCOLOR="#ffffff" LINK="#2089a6" VLINK="#333333">
+<table cellspacing="0" cellpadding="0" width="750" border="0">
+<tr>
+<td style="border-bottom: #cc0000 2px solid;">
+<img src="https://archiver.kmd.keio.ac.jp/img/blank.gif" alt=""></td>
+</td>
+</tr>
+<tr>
+<td height="1" colspan="2">
+<img src="https://archiver.kmd.keio.ac.jp/img/blank.gif" alt=""></td>
+</tr>
+<tr>
+<td valign="top" align="right"><a href=""><img src="https://archiver.kmd.keio.ac.jp/img/logo2.png" border="0" alt="KMD e-Learning システム"></a></td>
+</tr>
+<tr>
+<td style="border-bottom: #ffffff 1px solid;">
+<img src="https://archiver.kmd.keio.ac.jp/img/blank.gif" alt=""></td>
+</td>
+</tr>
+</table>
+
+
+<table border=0 width="750" cellpadding="1" cellspacing="0">
+<tr>
+<td width=100% bgcolor="#cc0000">
+<table border=0 bgcolor=#ffffff cellpadding=2>
+<tr valign=middle>
+<td nowrap align="left" bgcolor=#ffffff> 
+<img src="https://archiver.kmd.keio.ac.jp/img/ekamoku_login_s.gif" style="vertical-align: middle"></td>
+<td nowrap align="left" width="350" bgcolor=#ffffff> 
+【受講生<span class="en">Student</span>】 
+潘 泰仰  / taiyang.pan@kmd.keio.ac.jp</td>
+<td nowrap align="right" width="230"  bgcolor=#ffffff>Last login:</td>
+<td nowrap align="right" width=125><img src=https://archiver.kmd.keio.ac.jp/img/home.GIF border=0 style="vertical-align:middle">HOME</td>
+</tr>
+</table>
+</td></tr>
+</table>
+
+<table border="0" width="750"> <tr><td>
+<table border=0 width=100% cellpadding="5" cellspacing="5">
+<!--<tr><td bgcolor="#efefef" align=center nowrap>
+<a href="e_history.cgi?ed50fbb63b513aa5a82039af8831dcde">
+<img src=/img/cert.GIF border=0><BR>
+履修履歴/成績</a>
+<br></td>
+<td valign=top colspan="2" bgcolor="#efefef" width="635">
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> お知らせ<br>
+<p>
+
+</td>
+</tr>-->
+<tr>
+<td valign=bottom nowrap bgcolor="#efefef" width="10%" align="center">
+<img src="https://archiver.kmd.keio.ac.jp/img/st_photo/anonymous.jpg" width="64">
+<p align="left">
+<form action="change_photo.cgi?ed50fbb63b513aa5a82039af8831dcde" method="post" style="margin: 0px;"><input type="submit" value="写真登録">
+<br /><span class="en">Update Photo</span>
+</form>
+</td>
+<td valign=top nowrap bgcolor="#efefef" width="635">
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+自己紹介
+<span class="en">/ Self-introduction</span>
+<br>
+<p>
+<a href="change_intro.cgi?ed50fbb63b513aa5a82039af8831dcde">ここをクリックして自己紹介を入力してください</a><br><span class=en><a href="change_intro.cgi?ed50fbb63b513aa5a82039af8831dcde">Please click here to enter your self-introduction.</a></span><p>
+<p align="right">
+<form action="change_intro.cgi?ed50fbb63b513aa5a82039af8831dcde" method="post" style="margin: 0px;"><input type="submit" value="自己紹介登録">
+<br /><span class="en">Update Self-introduction</span>
+</form>
+</td>
+</tr>
+<tr>
+<td valign=bottom nowrap bgcolor="#efefef" colspan="2" align="left">
+<!-- <a href="skill_auth.cgi?PARAM enc_id" target="skill">スキル科目 履歴確認・申請 <span class="en">History/Registration of Skill Subject</span></a> -->
+
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="../../mdr/student/view_p.cgi?s_encid=ed50fbb63b513aa5a82039af8831dcde&mode=info1" target="skill">MDR1 最終発表フィードバック<span class="en"> | MDR1 Final Presentation Feedback</span></a>
+<br />
+
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="../../mdr/student/view_p.cgi?s_encid=ed50fbb63b513aa5a82039af8831dcde&mode=info5" target="skill">MDR2 修論テーマレビューフィードバック
+	<span class="en"> | MDR2 Thesis Theme Review Feedback</span></a>
+<br />
+
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="../../mdr/student/view_p.cgi?s_encid=ed50fbb63b513aa5a82039af8831dcde&mode=info2" target="skill">MDR2 修論中間発表フィードバック<span class="en"> | MDR2 Master's Thesis Interim Presentation Feedback</span></a>
+<br />
+
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="../../mdr/student/view_p.cgi?s_encid=ed50fbb63b513aa5a82039af8831dcde&mode=info3" target="skill">MDR3 修論最終発表フィードバック<span class="en"> | MDR3 Master's Thesis Final Presentation Feedback</span></a>
+<br />
+
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="proposal_new.cgi?ed50fbb63b513aa5a82039af8831dcde" target="skill">
+博士課程プロポーザル一覧
+<span class="en"> | Doctoral Dissertation Proposals</span></a>
+
+<br />
+<img src="https://archiver.kmd.keio.ac.jp/img/square_red.gif"> 
+<a href="../../mdr/student/view_p.cgi?s_encid=ed50fbb63b513aa5a82039af8831dcde&program=dr&mode=info6" target="skill">博士中間発表 フィードバック<span class="en"> | Doctoral Interim Presentation Feedback</span></a>
+<br />
+
+
+</td>
+</tr>
+</table>
+<img src="https://archiver.kmd.keio.ac.jp/img/gray.GIF" width=750 height=1>
+<div style="margin-top: 10px;margin-bottom: 10px;">
+[ 授業一覧 :
+<a href="e_class_list.cgi?ed50fbb63b513aa5a82039af8831dcde">2025年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2025s">2025年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2024f">2024年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2024s">2024年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2023f">2023年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2023s">2023年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2022f">2022年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2022s">2022年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2021f">2021年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2021s">2021年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2020f">2020年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2020s">2020年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2019f">2019年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2019s">2019年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2018f">2018年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2018s">2018年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2017f">2017年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2017s">2017年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2016f">2016年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2016s">2016年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2015f">2015年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2015s">2015年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2014f">2014年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2014s">2014年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2013f">2013年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2013s">2013年春</a> |
+
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2012f">2012年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2012s">2012年春</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2011f">2011年秋</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2011s">2011年春</a> ]
+<span class="en"><br /> / 
+[ List of Classes :
+  <a href="e_class_list.cgi?ed50fbb63b513aa5a82039af8831dcde">2025 Fall</a> |
+    <a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2025s">2025 Spring</a> |
+    <a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2024f">2024 Fall</a> |
+  <a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2024s">2024 Spring</a> |
+  <a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2023f">2023 Fall</a> |
+  <a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2023s">2023 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2022f">2022 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2022s">2022 Spring</a> |  
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2021f">2021 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2021s">2021 Spring</a> | 
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2020f">2020 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2020s">2020 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2019f">2019 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2019s">2019 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2018f">2018 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2018s">2018 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2017f">2017 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2017s">2017 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2016f">2016 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2016s">2016 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2015f">2015 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2015s">2015 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2014f">2014 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2014s">2014 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2013f">2013 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2013s">2013 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2012f">2012 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2012s">2012 Spring</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2011f">2011 Fall</a> |
+<a href="e_class_list_past.cgi?ed50fbb63b513aa5a82039af8831dcde+2011s">2011 Spring</a> ]
+</span>
+</div>
+
+<img src="https://archiver.kmd.keio.ac.jp/img/gray.GIF" width=750 height=1>
+
+<br/>
+
+<div style="background-color:#FFCCCC; padding: 15px;">
+
+NEWS
+</div>
+
+<div style="background-color:#FFF9C8; padding: 15px;">
+<!-- お知らせ -->
+<ul>
+  
+  <li>2025.09.08 - トップページを2025年度秋学期用に切り替えました。<br />
+2025年度春学期の授業ページを閲覧する場合は、上記「授業一覧」
+の「2025年春」を押してください。<br />
+The top page of e-learning system website has changed to Fall
+Semester (Academic Year 2025) version.
+If you wish to view the page for 2025 Spring Semester, choose "2025 Spring"
+from the "List of Classes" and click.<br><br> </li>
+  
+<!--
+<li><strong>
+2025年9月修了予定者の修士論文提出締切は 2025年6月19日（木）16:00 です。
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+1+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。<br />
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+1+ed50fbb63b513aa5a82039af8831dcde">here</a> for submission of master's thesis.
+The deadline is 4:00 pm on Thursday, June 19, 2025.
+</strong>
+  <br /><br />
+  </li>
+-->
+
+<!--
+<li><strong>
+2025年9月修了予定者の修正版修士論文提出締切は 2025年7月28日（月）16:00 です。
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+2+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。 / 
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+2+ed50fbb63b513aa5a82039af8831dcde">here</a> 
+for submission of modified master's thesis. 
+The deadline is 4:00 pm on Monday, July 28, 2025.
+</strong>
+  <br /><br />
+  </li>
+-->
+
+  <li><strong>
+2025年9月修了予定者の製本版論文提出（要修正者のみ）締切は 2025年8月25日（月）16:00 です。 
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+3+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。 / 
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+3+ed50fbb63b513aa5a82039af8831dcde">here</a>
+for submission of
+Master's Thesis for Bookbinding (Only for Students Required to Revise).
+The deadline is 4:00 pm on Monday, August 25, 2025.
+</strong>
+<br><br>
+</li>
+
+<li><strong>
+2025年9月修了予定者の学位論文利用許諾書提出締切は 2025年8月25日（月）16:00 です。
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+4+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。 / 
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+4+ed50fbb63b513aa5a82039af8831dcde">here</a> 
+for submission of Consent Form relating to Use of the Master's Thesis at the Hiyoshi Media Center.
+The deadline is 4:00 pm on Monday, August 25, 2025.
+</strong>
+<br><br>
+<li><strong>
+
+2025年9月修了予定者の製本代金支払申請書提出締切は 2025年8月25日（月）16:00 です。 
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+5+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。 / 
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2025_99997+5+ed50fbb63b513aa5a82039af8831dcde">here</a> 
+for submission of Application for Book Binding of Master’s Thesis.
+The deadline is 4:00 pm on Monday, August 25, 2025.
+</strong>
+<br /><br />
+</li>
+	<!--
+<li><strong>
+2022年9月修了予定者の製本代金支払申請書提出締切は 2022年8月24日（水）16:00 です。
+<a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2022_99997+5+ed50fbb63b513aa5a82039af8831dcde">こちら</a>から登録してください。 / 
+Click <a href="https://archiver.kmd.keio.ac.jp/cgi/report/report.cgi?2022_99997+5+ed50fbb63b513aa5a82039af8831dcde">here</a> for submission of Application for Book Binding of Master’s Thesis. The deadline is 4:00 pm on Wednesday, August 24, 2022.
+</strong>
+<br><br>
+</li>
+-->
+
+<!--
+<li><strong>
+<a href="https://archiver.kmd.keio.ac.jp/cgi/e-student/e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2022_99998">The videos of the Thesis Writing Workshop (in English) held on April 7th 2022 is available here.
+</a>
+</strong>
+<br><br>
+</li>
+-->
+  
+<!--
+<li>
+KMD Online Campus: Information Portal - <a href="https://scrapbox.io/kmd-online-campus/" target="_blank">https://scrapbox.io/kmd-online-campus/</a><br><br>
+</li>
+-->
+
+<li><strong>
+<a href="https://archiver.kmd.keio.ac.jp/cgi/e-student/e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2022_99903">2022年6月10日実施プレナリビデオ及びリアルプロジェクトカタログはこちらから閲覧してください。<br>
+The videos of the Plenary Meeting held on June 10th 2022 and the Real Project catalogue are available here.
+</a>
+</strong>
+<br>
+</li>
+<!--
+
+<li><strong>
+<a href="https://archiver.kmd.keio.ac.jp/cgi/e-student/e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2021_99904">2021年11月26日実施プレナリビデオ及びリアルプロジェクトカタログはこちらから閲覧してください。<br>
+The videos of the Plenary Meeting held on Nov 26th 2021 and the Real Project catalogue are available here.
+</a>
+</strong>
+<br>
+</li>
+-->
+
+<!--<li><font color=red>2020.09.30 - 緊急メンテナンスのため、2020年度分のビデオ配信を
+2020年9月30日(水)20:00-21:00 の間、停止致します。
+大変ご迷惑をおかけ致しますが、ご協力よろしくお願い致します。<br />
+Due to system maintenance, video streaming service on e-Learning system will be unavailable on Sep 30, 2020  (Wed) 20:00-21:00.
+Sorry for the inconvenience. </font>
+-->
+
+
+
+
+</div>
+<br />
+<b><img src="https://archiver.kmd.keio.ac.jp/img/square_yellow.gif"> 2025年度秋学期 授業一覧</b>
+<span class="en">/ Course list for fall semester 2025 </span>
+<p>
+<table border="0" cellpadding="3" width="750">
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44016"><b>イノベーションパイプライン１Ａ （英）</b> <span class=en><br />INNOVATION PIPELINE 1A (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月１,月２,水１,水２</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">キム　ジョンウン</a>、ハインズ， ダニエル、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">KIM JUNGEUN</a>, HYNDS DANIEL, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_49656"><b>責任ある研究・イノベーション </b> <span class=en><br />RESPONSIBLE RESEARCH AND INNOVATION </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a> / <span class=en><a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_38900"><b>オタク文化のコンテンツ創造力と効率的な経済的効果の波及 （日英）</b> <span class=en><br />CONTENTS CREATIVITY AND ECONOMICAL IMPACT OF OTAKU CULTURE (Japanese/English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44018"><b>イノベーションパイプライン１Ｂ （英）</b> <span class=en><br />INNOVATION PIPELINE 1B (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火１,火２,木１,木２,未定未定</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a> / <span class=en><a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_29676"><b>コンピュテーショナル・サービス・アーキテクチャ （英）</b> <span class=en><br />COMPUTATIONAL SERVICE ARCHITECTURE (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+水３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_38910"><b>身体性インタラクション （英）</b> <span class=en><br />EMBODIED INTERACTIONS (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+木５</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_71103"><b>イノベーションパイプライン１Ｃ（マネジメント） （英）</b> <span class=en><br />INNOVATION PIPELINE 1C (MANAGEMENT) (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+金１,金２</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a>、山田　卓、菊池　尚人、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a>, Takashi YAMADA, Naoto KIKUCHI, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_71104"><b>イノベーションパイプライン１Ｃ（ポリシー） （英）</b> <span class=en><br />INNOVATION PIPELINE 1C (POLICY) (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+金１,金２</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a>、山田　卓、菊池　尚人、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a>, Takashi YAMADA, Naoto KIKUCHI, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_35355"><b>基礎プロジェクト </b> <span class=en><br />INTRODUCTORY PROJECT </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">キム　ジョンウン</a>、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">KIM JUNGEUN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#FFCCCC><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_38897"><b>イノベーションパイプライン２ （英）</b> <span class=en><br />INNOVATION PIPELINE 2 (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期特定期間集中<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_46260"><b>サービスデザイン概論 （英）</b> <span class=en><br />METHODOLOGIES FOR SERVICE DESIGN (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、小林　茂、有馬　俊、田嶋　規雄、斉藤　賢爾 / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, Shigeru KOBAYASHI, ARIMA SHUN, NORIO TAJIMA, Kenji SAITO</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44039"><b>サービスデザインプロジェクトＢ </b> <span class=en><br />SERVICE DESIGN PROJECT B </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月５</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：斉藤　賢爾 / <span class=en>Kenji SAITO</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_46928"><b>ブランドコミュニケーションの未来 （英）</b> <span class=en><br />REIMAGINING BRAND COMMUNICATION (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+月５</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44027"><b>グローバルビジネス戦略とレスポンシブル・リーダーシップ （英）</b> <span class=en><br />GLOBAL BUSINESS STRATEGY AND RESPONSIBLE LEADERSHIP (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火３,金３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：千住　孝一郎 / <span class=en>KOICHIRO SENJU</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44040"><b>サービスデザインプロジェクトＡ </b> <span class=en><br />SERVICE DESIGN PROJECT A </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：小林　茂 / <span class=en>Shigeru KOBAYASHI</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44104"><b>公共政策の現代的課題 （英）</b> <span class=en><br />MODERN ISSUES OF PUBLIC POLICY (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_46255"><b>マテリアルインタラクション </b> <span class=en><br />MATERIAL INTERACTION </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44316"><b>都市におけるマーケットデザイン </b> <span class=en><br />MARKET DESIGN FOR WELL BEING CITY </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火５</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_29466"><b>知的財産戦術 （英）</b> <span class=en><br />INTELLECTUAL PROPERTY TACTICS (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+火６</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：菊池　尚人、山田　卓 / <span class=en>Naoto KIKUCHI, Takashi YAMADA</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44034"><b>メディアデザイン研究１ </b> <span class=en><br />MEDIA DESIGN RESEARCH 1 </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+水１,水２</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">キム　ジョンウン</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">KIM JUNGEUN</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44313"><b>イノベーションを支援するマーケティング戦略 </b> <span class=en><br />MARKETING STRATEGY FOR INNOVATION </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+水４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：田嶋　規雄 / <span class=en>NORIO TAJIMA</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44041"><b>サービスデザインプロジェクトＣ </b> <span class=en><br />SERVICE DESIGN PROJECT C </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+水５</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_37725"><b>ＫＭＤイングリッシュ２ （英）</b> <span class=en><br />KMD ENGLISH 2 (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+木３</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：ニシリアス，　マシュー / <span class=en>Matthew NISSELIUS</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_29674"><b>デジタルメディア・イノベーション </b> <span class=en><br />DIGITAL MEDIA INNOVATION </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+木４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：工藤　紀篤 / <span class=en>KUDO NORIATSU</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_37726"><b>異文化コミュニケーション入門 （英）</b> <span class=en><br />INTRODUCTION TO INTERCULTURAL COMMUNICATION (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期通常<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+木４</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：ニシリアス，　マシュー / <span class=en>Matthew NISSELIUS</span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_29658"><b>リアルプロジェクト </b> <span class=en><br />REAL PROJECT </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_37020"><b>ブロックセミナー （英）</b> <span class=en><br />BLOCK SEMINAR (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">キム　ジョンウン</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">KIM JUNGEUN</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44026"><b>情報セキュリティ技術特論２ </b> <span class=en><br />INFORMATION SECURITY TECHNOLOGY 2 </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期特定期間集中<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44031"><b>ＧＩＤインターナショナルプロジェクト２ （英）</b> <span class=en><br />GID INTERNATIONAL PROJECT 2 (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44036"><b>メディアデザイン研究２ </b> <span class=en><br />MEDIA DESIGN RESEARCH 2 </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_44939"><b>ＣＥＭＳリサーチプロジェクト （英）</b> <span class=en><br />CEMS RESEARCH PROJECT (English)</span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_48674"><b>インターンシップ </b> <span class=en><br />INTERNSHIP FOR IMPACT </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_80101"><b>クラッシュコース </b> <span class=en><br />Crash Course </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：KMD 事務局、<a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">キム　ジョンウン</a>、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en>KMD Office, <a href="https://www.kmd.keio.ac.jp/ja/faculty/Jungeun-Elly-Kim" target="_new">KIM JUNGEUN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_99902"><b>博士学生発表 </b> <span class=en><br />Presentations by Doctoral Students </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：KMD 事務局、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en>KMD Office, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_99993"><b>修士論文題目申請および修士論文提出 </b> <span class=en><br />Submission of Master's Thesis and Its Title </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：KMD 事務局、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en>KMD Office, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_99994"><b>メディアデザイン研究３（修士論文） </b> <span class=en><br />MEDIA DESIGN RESEARCH 3 (Master's Thesis)  </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：KMD 事務局、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en>KMD Office, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_99995"><b>特別講座・特別講演 </b> <span class=en><br />Special Lectures </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+秋学期<span class=en><br>Fall</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：KMD 事務局、<a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">佐藤　千尋</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">吉田 貴寿</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">山岡　潤一</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">武田　秀太郎</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">永山　翔太</a>、<a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">脇坂 崇平</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">陳 敦雅</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">クンツェ，　カイ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">加藤　朗</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">南澤　孝太</a>、<a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">大喜多　優</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">岸　博幸</a>、<a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">杉浦　一徳</a>、<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、<a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">稲蔭　正彦</a>、<a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">ウォルドマン，　マッシュ</a>、<a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">石戸　奈々子</a> / <span class=en>KMD Office, <a href="http://www.kmd.keio.ac.jp/faculty/chihiro-sato" target="_new">Chihiro SATO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/takatoshi-yoshida" target="_new">YOSHIDA TAKATOSHI</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/junichi-yamaoka" target="_new">Junichi Yamaoka</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shutaro-takeda/" target="_new">TAKEDA SHUTARO</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/shota-nagayama/" target="_new">NAGAYAMA SHOTA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/sohei-wakisaka" target="_new">SOHEI WAKISAKA</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/dunya-donna-chen" target="_new">Dunya Chen</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kai-kunze" target="_new">Kai KUNZE</a>, <a href="http://www.kmd.keio.ac.jp/faculty/akira-kato" target="_new">Akira KATO</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kouta-minamizawa" target="_new">Kouta MINAMIZAWA</a>, <a href="https://www.kmd.keio.ac.jp/ja/faculty/sandra-yu-okita/" target="_new">OOKITA YUU</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hiro-kishi" target="_new">Hiro KISHI</a>, <a href="http://www.kmd.keio.ac.jp/faculty/kazunori-sugiura" target="_new">Kazunori SUGIURA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, <a href="http://www.kmd.keio.ac.jp/faculty/masa-inakage" target="_new">Masa INAKAGE</a>, <a href="http://www.kmd.keio.ac.jp/ja/faculty/matthew-waldman" target="_new">Matthew WALDMAN</a>, <a href="http://www.kmd.keio.ac.jp/faculty/nanako-ishido" target="_new">Nanako ISHIDO</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+<TR bgcolor=#e0e0e0><TD VALIGN="TOP" width="15">
+<IMG SRC="https://archiver.kmd.keio.ac.jp/img/square_red.gif"></TD>
+<TD VALIGN="TOP">
+<a href="e_class_top.cgi?ed50fbb63b513aa5a82039af8831dcde+2025_37916"><b>情報セキュリティ運用リテラシーＢ </b> <span class=en><br />LITERACY IN INFORMATION SECURITY MANAGEMENT B </span></a>
+</TD>
+<TD VALIGN="TOP" width=40 nowrap>
+通年特定期間集中<span class=en><br>Year-round</span></TD>
+<TD VALIGN="TOP" nowrap>
+</TD>
+</TR>
+<TR><TD></TD>
+<TD>担当：<a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">砂原　秀樹</a>、奈良先端科学技術大学院大学、<a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">標葉　隆馬</a> / <span class=en><a href="http://www.kmd.keio.ac.jp/faculty/hideki-sunahara" target="_new">Hideki SUNAHARA</a>, Nara Institute of Science and Technology, <a href="https://www.kmd.keio.ac.jp/ja/faculty/ryuma-shineha/" target="_new">SHINEHA RYUMA</a></span> <br>
+</TD>
+<TD></TD>
+<td width="3%"></td></TR>
+
+</table>
+<BR>
+<table border="0" cellpadding="3" width="750">
+
+</table>
+
+<p>
+<br />
+<table cellspacing="0" cellpadding="0" width="750" border="0">
+<tr>
+<td style="border-bottom: #cc0000 2px solid;">
+<img src="https://archiver.kmd.keio.ac.jp/img/blank.gif" alt=""></td>
+</td>
+</tr>
+
+        <tr>
+        <td height="2"><img src="https://archiver.kmd.keio.ac.jp/img/blank.gif" alt=""></td>
+        </tr>
+<tr>
+<td>
+<img src="https://archiver.kmd.keio.ac.jp/img/poweredbysoi.jpg" alt="Powered by SOI" border="0" align="right">
+<p>Copyright(c) 2024, Keio University. All rights reserved.<br>
+<a href="/cgi/doc/copyright.cgi">このサイトの著作権について<span class="en"> | About copyright of this site</span></a>
+</td>
+</tr>
+</table>
+ </body>
+</html>
+
