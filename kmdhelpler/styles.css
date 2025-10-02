@@ -1,0 +1,34 @@
+/* Container for both buttons */
+#gcal-buttons-wrapper {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Shared button look */
+.gcal-add-all-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #1a73e8;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.gcal-add-all-btn:hover {
+  background: #1765c1;
+}
+
+.gcal-generated-link {
+  color: #1a73e8 !important;
+  text-decoration: underline;
+}
+
+

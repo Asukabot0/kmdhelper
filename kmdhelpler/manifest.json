@@ -1,0 +1,27 @@
+{
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn3IG6xwNHeslykU7iOfbjo+84mMIlpIwi4Mf6VAuqIe61pecv4xi8LLRtR4vIuRWZXx3K4qzs44T9cUW0mW1S2F4+7/05/3bRB2E2Efho5qz8Io8Ydf4U4N3BI9PCXFTe5BC9THbSjIszMlkklEy5MSaubHyZGTBi8ssFBpEjUMZGKVNO+Wpjewyd74nCKw/VGWuy2+0C+XUjSqXbuc9mhy7TCNYM9hbAI3ReYNb3NIHjqUufM7niOztFj7Di1SG+KGdTPKyMU5RJ/8IZEa0AcWyt+oo/FZjVN5FiBW1r3SI+aekT4Rp6OQi8f7KfwfrKrSrg1YnKbSUR5EraI3JKQIDAQAB",
+  "manifest_version": 3,
+  "name": "KMD Helpler",
+  "version": "0.1.0",
+  "description": "Auto-detect course blocks on webpages and turn them into Google Calendar event links with a one-click add-all button.",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": ["identity", "storage"],
+  "host_permissions": ["https://www.googleapis.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://archiver.kmd.keio.ac.jp/*", "http://archiver.kmd.keio.ac.jp/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
+
