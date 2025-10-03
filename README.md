@@ -8,11 +8,11 @@ KMD Helper is a Chrome extension that detects course time blocks on Keio Univers
 
 ## Installation
 
-1. Go to this repository's Releases page and download the latest `.crx`.
+1. Download this repository's source (Code → Download ZIP) or clone it locally.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" (top-right).
-4. Drag and drop the downloaded `.crx` onto the Extensions page, then confirm installation. No unzip is required.
-5. Optional fallback: if Chrome blocks installing `.crx`, use "Load unpacked" and select the `kmdhelpler` source directory instead.
+4. Click "Load unpacked" and select the `kmdhelpler` directory from the source.
+5. If you want to use my API (developer-owned Google project), please send me your installed Extension ID (chrome://extensions → Developer mode → find the ID under KMD Helper).
 
 Note: The extension only runs automatically on the `archiver.kmd.keio.ac.jp` domain.
 
@@ -87,11 +87,11 @@ This project is licensed under GPL-3.0-or-later. See the `LICENSE` file at the r
 KMD Helper 是一个 Chrome 扩展，用于在 KMD 课程页面（`archiver.kmd.keio.ac.jp`）上识别课程时间块，并通过 Google Calendar API 将其添加到 Google 日历。
 
 ### 安装
-1. 前往本仓库的 Releases 页面，下载最新的 `.crx` 包。
+1. 下载本仓库源码（Code → Download ZIP）或使用 git clone 到本地。
 2. 打开 Chrome，访问 `chrome://extensions/`。
 3. 在右上角开启「开发者模式」。
-4. 将下载的 `.crx` 直接拖拽到扩展管理页面并确认安装，无需解压。
-5. 可选回退：若 Chrome 拒绝安装 `.crx`，可使用「加载已解压的扩展程序」选择源码目录 `kmdhelpler`。
+4. 点击「加载已解压的扩展程序」，选择源码目录 `kmdhelpler`。
+5. 若想使用我的 API（开发者的 Google 项目额度），请把安装好的扩展 ID 发给我（chrome://extensions → 开发者模式 → 在 KMD Helper 卡片下方查看 ID）。
 
 注意：扩展仅在 `archiver.kmd.keio.ac.jp` 域名页面自动运行。
 
