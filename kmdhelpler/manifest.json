@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "KMD Helpler",
+  "name": "KMD Helper",
   "version": "0.1.0",
   "description": "Auto-detect course blocks on webpages and turn them into Google Calendar event links with a one-click add-all button.",
   "icons": {
