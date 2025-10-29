@@ -1,11 +1,12 @@
 (function () {
   "use strict";
 
-  if (location && location.hostname && location.hostname.indexOf("archiver.kmd.keio.ac.jp") === -1) {
+  var __testMode = typeof window !== 'undefined' && !!window.__kmdhelperTestMode;
+  if (location && location.hostname && location.hostname.indexOf("archiver.kmd.keio.ac.jp") === -1 && !__testMode) {
     return;
   }
 
-  if (window.__gcal_course_adder_initialized__) {
+  if (!__testMode && window.__gcal_course_adder_initialized__) {
     return;
   }
   window.__gcal_course_adder_initialized__ = true;
@@ -80,8 +81,12 @@
     return "";
   }
 
-  var COURSE_NAME = inferCourseName();
-  var COURSE_LOCATION = inferCourseLocation();
+  var COURSE_NAME = (typeof window !== 'undefined' && window.__kmdhelperCourseNameOverride !== undefined)
+    ? window.__kmdhelperCourseNameOverride
+    : inferCourseName();
+  var COURSE_LOCATION = (typeof window !== 'undefined' && window.__kmdhelperCourseLocationOverride !== undefined)
+    ? window.__kmdhelperCourseLocationOverride
+    : inferCourseLocation();
 
   var weekday = "(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun|月|火|水|木|金|土|日)";
   // Flexible date line: supports '-' or '/', optional weekday, optional time range
@@ -297,6 +302,7 @@
       if (!payload || !Array.isArray(payload.courses)) return null;
       var target = null;
       var nameKey = normalizeNameForMatch(COURSE_NAME);
+      if (!nameKey) return null;
       for (var i = 0; i < payload.courses.length; i++) {
         var c = payload.courses[i];
         var cn = normalizeNameForMatch(c && c.name);
@@ -650,10 +656,23 @@
     document.getElementById('gcal-buttons-wrapper').appendChild(btn);
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", processPage);
-  } else {
-    processPage();
+  if (typeof window !== 'undefined') {
+    window.__kmdhelper = window.__kmdhelper || {};
+    window.__kmdhelper.parseHomepageCourses = parseHomepageCourses;
+    window.__kmdhelper.buildSlotHintFromCachePayload = buildSlotHintFromCachePayload;
+    window.__kmdhelper.__testAccess = {
+      setCourseName: function (name) { COURSE_NAME = name; window.__kmdhelperCourseNameOverride = name; },
+      setCourseLocation: function (loc) { COURSE_LOCATION = loc; window.__kmdhelperCourseLocationOverride = loc; },
+      resetSlotHint: function () { __slotHintByWeekday = null; __slotHintLoaded = false; }
+    };
+  }
+
+  if (!__testMode) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", processPage);
+    } else {
+      processPage();
+    }
   }
 })();
 
